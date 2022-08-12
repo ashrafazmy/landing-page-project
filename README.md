@@ -12,7 +12,7 @@ The webpage consists 4 main sections (including header and footer):
 <li>A hero statement at the top of the page, below the header</li>
 <li>Next, some content with images</li>
 <li>More content filled with quote</li>
-<li>A 'sign up' button </li>
+<li>A 'sign up' modal box window </li>
 </ol>
 
 Include credits (Odin)
