@@ -5,9 +5,10 @@ body {
     flex-direction:column;
 }
 
-.header, .footer {
+.header {
     display: flex;
     justify-content: space-around;
+    padding:0 16px;
 }
 
 .left-link {
@@ -18,7 +19,14 @@ body {
     font-size: 15px;
 }
 
-
+.hero {
+    display:flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
 
 .header, .hero, .footer{
     height: 72px;
