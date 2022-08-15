@@ -1,0 +1,55 @@
+body {
+    margin:0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.header, .hero, .footer{
+    height: 72px;
+    background-color: #1f2937;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header .link, .hero .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero .main {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: none;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
