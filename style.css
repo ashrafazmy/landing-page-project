@@ -32,7 +32,8 @@ body {
 
 .hero-image{
     width:200px;
-
+    display: flex;
+    ;
 }
 
 .content {
